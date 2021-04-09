@@ -14,7 +14,7 @@ ul {
 
 @media (max-width: 490px) {
     .content {
-        margin: 386px auto 0px;
+        margin: 384px auto 0px;
     }
     .header {
         width: 100%;
@@ -174,7 +174,7 @@ ul {
     }
 }
 
-@media (min-width: 1224px) {
+@media (min-width: 1223px) {
     .content {
         margin: 150px auto 0px;
     }
@@ -245,4 +245,10 @@ ul {
 
 li {
     border-bottom: 1px solid #555;
+}
+
+@media (max-height: 446px) {
+    .header {
+        position: absolute;
+    }
 }
