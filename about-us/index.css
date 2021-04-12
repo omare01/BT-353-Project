@@ -177,6 +177,9 @@ ul {
 @media (min-width: 1223px) {
     .content {
         margin: 150px auto 0px;
+        text-align: center;
+        width: 50%;
+
     }
     .header {
         width: 100%;
