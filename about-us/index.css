@@ -294,6 +294,7 @@ h4 {
 @media (min-width: 1223px) {
     .content {
         margin: 150px auto 0px;
+        text-align: center;
     }
     .header {
         width: 100%;
