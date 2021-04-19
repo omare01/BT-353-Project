@@ -15,6 +15,7 @@ body {
     height: auto;
     background-color: rgb(187, 187, 187);
     padding-bottom: 50px;
+    margin-bottom: 200px;
     padding-top: 20px;
     border: 1px solid black;
 }
@@ -80,11 +81,21 @@ h4 {
     text-align: center;
 }
 
+.small-text {
+    font-size: 12px;
+}
+
 .vert-centered {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.full-length>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (min-width: 1222px) {
@@ -101,6 +112,9 @@ h4 {
     .tile {
         width: 500px;
         margin: 20px 10px 20px 10px;
+    }
+    .full-length {
+        width: 88.5%;
     }
 }
 
@@ -120,13 +134,46 @@ h4 {
         margin: 20px 10px 0px 10px;
         padding: 5px;
     }
+    .full-length {
+        width: 92.3%;
+    }
 }
 
 
-/* Below is style for the header/navbar */
+/* Below is style for the header and footer */
+
+footer {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    bottom: -120px;
+    width: 100%;
+    background: rgb(80, 80, 80);
+    background: linear-gradient(0deg, rgb(51, 51, 51) 0%, rgba(80, 80, 80, 1) 100%);
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+footer>p {
+    color: white;
+    vertical-align: bottom;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 0;
+}
+
+footer>p>a:visited {
+    color: white;
+}
 
 #navbar>ul {
     font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    border-bottom: 1px solid black;
 }
 
 @media (max-width: 490px) {
