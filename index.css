@@ -114,7 +114,7 @@ h4 {
         margin: 20px 10px 20px 10px;
     }
     .full-length {
-        width: 88.5%;
+        width: 88.2%;
     }
 }
 
@@ -135,7 +135,7 @@ h4 {
         padding: 5px;
     }
     .full-length {
-        width: 92.3%;
+        width: 92%;
     }
 }
 
@@ -165,6 +165,10 @@ footer>p {
 }
 
 footer>p>a {
+    color: white;
+}
+
+footer>p>a:visited {
     color: white;
 }
 

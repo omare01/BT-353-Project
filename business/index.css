@@ -73,7 +73,7 @@ h4 {
     right: 0;
     margin: auto;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 10%;
     margin-top: 15px;
 }
 
@@ -153,6 +153,10 @@ footer>p {
 }
 
 footer>p>a {
+    color: white;
+}
+
+footer>p>a:visited {
     color: white;
 }
 

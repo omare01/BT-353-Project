@@ -156,6 +156,10 @@ footer>p>a {
     color: white;
 }
 
+footer>p>a:visited {
+    color: white;
+}
+
 #navbar>ul {
     font-family: 'Roboto', sans-serif;
 }
